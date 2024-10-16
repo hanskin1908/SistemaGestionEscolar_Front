@@ -10,7 +10,7 @@
   },
   "dependencies": {
   "react": "^18.3.1",
-     "react-router-dom": "^6.x.x",  // Asegúrate de que esta línea esté presente
+     "react-router-dom": "^18.3.1",  // Asegúrate de que esta línea esté presente
  "react-dom": "^18.3.1"
   },
   "devDependencies": {
