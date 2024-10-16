@@ -10,8 +10,14 @@ export default defineConfig({
     outDir: path.resolve(__dirname, 'dist'),
     emptyOutDir: true,
     rollupOptions: {
-      external: ['react-router-dom'],
-      input: path.resolve(__dirname, 'sistemagestionescolar', 'index.html'),
+      external: ['react', 'react-dom', 'react-router-dom'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+          'react-router-dom': 'ReactRouterDOM'
+        }
+      }
     },
   },
   resolve: {
