@@ -11,7 +11,7 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: path.resolve(__dirname, 'sistemagestionescolar', 'index.html'),
-      external: ['react', 'react-router-dom'],
+      external: ['react', 'react-router-dom','axios'],
       output: {
         globals: {
           react: 'React',
