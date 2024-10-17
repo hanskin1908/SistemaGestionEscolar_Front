@@ -15,7 +15,8 @@ export default defineConfig({
       output: {
         globals: {
           react: 'React',
-          'react-router-dom': 'ReactRouterDOM'
+          'react-router-dom': 'ReactRouterDOM',
+           axios: 'axios'
         }
       }
     },
